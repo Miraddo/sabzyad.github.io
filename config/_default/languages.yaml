@@ -3,20 +3,38 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
+fa:
+  languageCode: fa
+  contentDir: content/fa
+  title: "دوره‌های آنلاین سبزیاد"
+  params:
+    description: "سایت آموزش رایگان به زبان فارسی با تمرکز بر دوره‌های کاربردی"
+  menu:
+    main:
+      - name: درباره
+        url: "#about"
+        weight: 1
+      - name: دوره‌ها
+        url: "/course/"
+        weight: 2
+      - name: وبلاگ
+        url: "/post/"
+        weight: 3
+
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
-
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  contentDir: content/en
+  title: "Sabzyad Online Courses"
+  params:
+    description: "Free and modern online courses in English"
+  menu:
+    main:
+      - name: About
+        url: "#about"
+        weight: 1
+      - name: Courses
+        url: "/course/"
+        weight: 2
+      - name: Blog
+        url: "/post/"
+        weight: 3
